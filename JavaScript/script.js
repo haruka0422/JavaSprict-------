@@ -14,17 +14,27 @@ document.write(
 
 let numA = 10;
 
-let result = numA > 5 ? "true" : "false";
+let resultA = numA > 5 ? "true" : "false";
 
-console.log(result);
+console.log(resultA);
 
 document.write(
   "<p>3.代入された変数の中が5より小さい時にtrueの処理と、5より大きい時にfalseの処理を作ってください。</p>"
 );
+let numB = 13;
+
+let resultB = numB < 5 ? "true" : "false";
+
+console.log(resultB);
 
 document.write(
   "<p>4.代入された変数の中が10以上の時にtrueの処理と、10以下の時にfalseの処理を作ってください。</p>"
 );
+let numC = 20;
+
+let resultC = numC >= 10 ? "true" : "false";
+
+console.log(resultC);
 
 document.write(
   "<p>5.代入された変数の中に値が存在する場合はtrue、存在しない場合はfalseの処理にしてください。</p>"
@@ -36,10 +46,4 @@ let result = n ? "true" : "false";
 
 console.log(result);
 
-if (n) {
-  console.log("true");
-  console.log(n);
-} else {
-  console.log("false");
-  console.log(n);
-}
+
